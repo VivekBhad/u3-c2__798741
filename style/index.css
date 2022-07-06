@@ -1,0 +1,56 @@
+#navbar{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    height: 50px;
+    background-color:yellow;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#groceries{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+  
+}
+#groceries>div{
+    height: 330px;
+    width: 200px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: black 2px 2px 10px 0px;
+}
+#groceries>div>h2{
+    border-top:-10px;
+}
+#groceries>div>img{
+    height: 50%;
+    width: 90%;
+    margin-top: 10px;
+    border-radius: 10px;
+    /* box-shadow: black 2px 2px 2px 0px; */
+}
+h2{
+    margin-top: -10px;
+}
+button{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    color: blue;
+    font-size: 20px;
+    background-color: gray;
+    border: 0ch;
+}
+button:hover{
+    box-shadow: black 2px 2px 10px 0px;
+}
